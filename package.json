@@ -1,0 +1,28 @@
+{
+  "name": "phoenix",
+  "version": "0.0.1",
+  "description": "phoenix",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirreal/phoenix.git"
+  },
+  "keywords": [
+    "phoenix"
+  ],
+  "author": "mirreal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirreal/phoenix/issues"
+  },
+  "homepage": "https://github.com/mirreal/phoenix#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-link-base": "^0.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.2.2"
+  }
+}
