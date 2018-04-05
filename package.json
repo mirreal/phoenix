@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "phoenix",
   "scripts": {
-    "test": "jest"
+    "example": "cross-env BABEL_ENV=commonjs babel-node example/promise/then.js",
+    "test": "cross-env BABEL_ENV=commonjs jest",
+    "test:cov": "npm test -- --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,11 @@
   },
   "homepage": "https://github.com/mirreal/phoenix#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
+    "cross-env": "^5.1.4",
     "eslint": "^4.17.0",
     "eslint-config-link-base": "^0.1.2",
     "eslint-plugin-import": "^2.8.0",
