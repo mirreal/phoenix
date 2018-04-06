@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "phoenix",
   "scripts": {
-    "example": "cross-env BABEL_ENV=commonjs babel-node example/promise/then.js",
+    "example": "cross-env BABEL_ENV=commonjs babel-node examples/index.js",
     "test": "cross-env BABEL_ENV=commonjs jest",
     "test:cov": "npm test -- --coverage"
   },
